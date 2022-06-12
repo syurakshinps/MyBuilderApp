@@ -1,3 +1,5 @@
+package building;
+
 import org.inferred.freebuilder.FreeBuilder;
 
 @FreeBuilder
