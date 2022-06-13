@@ -5,9 +5,9 @@ import org.inferred.freebuilder.FreeBuilder;
 @FreeBuilder
 public interface Employee {
 
-    String name();
-    int age();
-    String department();
+    String getName();
+    int getAge();
+    String getDepartment();
 
     class Builder extends Employee_Builder {
     }
